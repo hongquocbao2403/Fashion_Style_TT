@@ -59,8 +59,8 @@ def get_image_urls_from_popup(driver, wait_time, total_images):
     return image_urls
 
 # Main script
-google_urls = [ 'https://www.google.com/search?sca_esv=7f0a4d0f8e025b19&rlz=1C1GCEA_enVN1024VN1024&sxsrf=AHTn8zrXn29PGnIrgicYJCZyL0Gy7b7ixg:1741188742260&q=classic+style&udm=2&fbs=ABzOT_AfCikcO6SgGMxZXxAG9tmS8rx53CbgOCSVg3O9Xo5xAK_RXi3VFy8QcDJV9F46BNVgXPVSNLh3EC8UATXqoQIBSA6FFNIPLMxYHHFRyE7wchAcITNDTiAOuVUc8YWtb5JmzY8_S1BORuI-VZ-t1kmX-zH99gaQ7HP5yRX6HMRWAwnT2HMTb8_MYeaFpkPvNdozB_BCy804bIh9X_zI1d-RCTsQsWz6Y3CFJfichG4KBSkp-po&sa=X&ved=2ahUKEwjBn-DDofOLAxVfs1YBHfpHLVIQtKgLegQIFxAB&biw=1536&bih=695&dpr=1.25']
-labels = ['classic']
+google_urls = [ 'https://www.google.com/search?q=kimono+nh%E1%BA%ADt+b%E1%BA%A3n+styles&sca_esv=b04edf4c6777ddf8&rlz=1C1GCEA_enVN1024VN1024&udm=2&biw=1536&bih=695&sxsrf=AHTn8zpcL-OpbB0PoMbgJ0Rrb4vITCpplw%3A1741191992297&ei=OHvIZ67pEabR2roPgN6WuQ0&ved=0ahUKEwiu5b7RrfOLAxWmqFYBHQCvJdcQ4dUDCBI&uact=5&oq=kimono+nh%E1%BA%ADt+b%E1%BA%A3n+styles&gs_lp=EgNpbWciGmtpbW9ubyBuaOG6rXQgYuG6o24gc3R5bGVzSI0dULkEWLkbcAd4AJABBpgBiwGgAesNqgEEMy4xNrgBA8gBAPgBAZgCAqAClwHCAggQABgTGAcYHsICBhAAGAcYHsICCBAAGAcYCBgemAMAiAYBkgcDMS4xoAf4DQ&sclient=img#vhid=KRTnEXOPliUqrM&vssid=mosaic']
+labels = ['kimono']
 
 if len(google_urls) != len(labels):
     raise ValueError('Danh sách URL không khớp với danh sách nhãn.')
